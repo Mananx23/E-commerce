@@ -1,0 +1,11 @@
+*{
+    background-color: #141414;
+    color:white;
+}
+
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
