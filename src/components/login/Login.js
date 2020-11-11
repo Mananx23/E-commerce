@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container , Button , Form,Card } from 'react-bootstrap';
 import './login.css';
+import {Link} from 'react-router-dom';
 
 
 const Login = ()=>(
@@ -24,9 +25,11 @@ const Login = ()=>(
                     {/* <Form.Group controlId="formBasicCheckbox">
                         <Form.Check type="checkbox" label="Check me out" />
                     </Form.Group> */}
-                    <Button variant="outline-light" type="submit">
-                        Submit
-                    </Button>
+                    <Link to="/home">
+                        <Button variant="outline-light" type="submit">
+                            Submit
+                        </Button>
+                    </Link>
                 </Form>
             </Container>
         
